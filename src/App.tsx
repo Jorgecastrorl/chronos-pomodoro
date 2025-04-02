@@ -4,6 +4,8 @@ import { Container } from "./components/Container";
 import "./styles/themes.css";
 import "./styles/global.css";
 import { Logo } from "./components/Logo";
+import { Menu } from "./components/Menu";
+import { CountDown } from "./components/CountDown";
 
 export function App() {
   return (
@@ -13,7 +15,11 @@ export function App() {
       </Container>
 
       <Container>
-        <Heading>MENU</Heading>
+        <Menu />
+      </Container>
+
+      <Container>
+        <CountDown />
       </Container>
     </>
   );
