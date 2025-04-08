@@ -28,5 +28,3 @@ export function App() {
     </TaskContextProvider>
   );
 }
-
-export function useTaskContext() {}
